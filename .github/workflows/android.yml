@@ -37,3 +37,4 @@ jobs:
         with:
           name: ${{ env.filename }}
           path: app/build/outputs/apk/release/${{ env.filename }}
+          archive: false
